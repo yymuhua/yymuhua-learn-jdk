@@ -10,14 +10,13 @@
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learn-concurrent/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learn-concurrent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-concurrent/src/main/java/com/yymuhua/learn/concurrent/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learn-concurrent/src/main/java/com/yymuhua/learn/concurrent/delay/DelayScheduler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learn-concurrent/src/main/java/com/yymuhua/learn/concurrent/threadpool/MyThreadPoolExecutor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learn-concurrent/src/test/java/com/yymuhua/learn/concurrent/delay/DelayScheduleTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

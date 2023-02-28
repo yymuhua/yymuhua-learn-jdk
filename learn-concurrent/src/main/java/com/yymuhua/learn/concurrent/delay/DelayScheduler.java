@@ -17,10 +17,14 @@ public class DelayScheduler {
         new Thread(this::dispatch).start();
     }
     private void dispatch() {
-        while (runnable) {
+        while (true) {
             try {
                 DelayTask task = taskQueue.take();
                 executeThreadPool.submit(task::doDelay);
+                if (!runnable && taskQueue.size() == 0) {
+                    executeThreadPool.shutdown();
+                    break;
+                }
             } catch (Exception e) {
                 log.error("DelayScheduler#dispatch error!", e);
             }
@@ -28,6 +32,9 @@ public class DelayScheduler {
     }
 
     public void submit(DelayTask task) {
+        if (!runnable) {
+            throw new RuntimeException("scheduler is closing!");
+        }
         taskQueue.add(task);
     }
 
