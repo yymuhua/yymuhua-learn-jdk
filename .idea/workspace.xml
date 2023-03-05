@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="508043b4-e1ff-46c5-8c18-a1817add367e" name="Changes" comment="调整实现">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-concurrent/src/main/java/com/yymuhua/learn/concurrent/cases/ThreadPoolBlocked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-log/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-log/src/main/java/com/yymuhua/learn/log/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-log/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-concurrent/src/main/java/com/yymuhua/learn/concurrent/threadpool/MyThreadPoolExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn-concurrent/src/main/java/com/yymuhua/learn/concurrent/threadpool/MyThreadPoolExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -50,13 +56,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "D:/dev/java_projects/yymuhua-learn-jdk/learn-log",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ThreadPoolBlocked">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\java_projects\yymuhua-learn-jdk\learn-log" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.yymuhua.learn.log.Main">
     <configuration name="DelayScheduleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yymuhua.learn.concurrent.delay.DelayScheduleTest" />
       <module name="learn-concurrent" />
@@ -109,8 +121,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.yymuhua.learn.log.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yymuhua.learn.log.Main" />
+      <module name="learn-log" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yymuhua.learn.log.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.yymuhua.learn.log.Main" />
         <item itemvalue="Application.ThreadPoolBlocked" />
         <item itemvalue="Application.MyThreadPoolExecutor" />
         <item itemvalue="Application.Main" />

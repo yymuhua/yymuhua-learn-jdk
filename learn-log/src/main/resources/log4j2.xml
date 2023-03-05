@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <ThresholdFilter level = "info" onMatch = "ACCEPT" onMisMatch = "DENY"/>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <Async name="AsyncAppender" blocking="false">
+            <!--异步方式输出到控制台-->
+            <AppenderRef ref="Console"/>
+        </Async>
+    </Appenders>
+    <Loggers>
+        <Root/>
+        <Logger name = "async" level="info">
+            <AppenderRef ref="AsyncAppender"/>
+        </Logger>
+        <Logger name = "sync" level="info">
+            <AppenderRef ref="Console"/>
+        </Logger>
+    </Loggers>
+</Configuration>
